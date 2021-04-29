@@ -33,7 +33,7 @@ io.on("connection", (socket)=>{
     })
 });
 
-const PORT = process.env.PORT || 5000;
+var PORT = process.env.PORT || 5000;
 server.listen(PORT, ()=>{
     console.log(`Connected to PORT ${PORT}`)
 });
